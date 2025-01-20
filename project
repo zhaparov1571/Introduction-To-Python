@@ -1,0 +1,14 @@
+buyer = input("Здравствуйте! Я пришел купить телефон: ")
+seller = input ("Здравствуйте! Выбирайте телефон, я вам помогу: ")
+
+price = float(input("Сколько стоит Iphone 14 pro? $"))
+trade_in = float(input("Сколько стоит твой старый телефон? $"))
+
+final_price = price - trade_in
+print(f"Оплата вышла: ${final_price: .2f}")
+
+money_given = float(input("Сколько денег вы даете? $"))
+
+change = money_given - final_price
+
+print(f"Сдача: ${change:.2f}")
