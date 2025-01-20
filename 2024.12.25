@@ -1,0 +1,10 @@
+num1 = int(input("Напишите первую цифру: "))
+num2 = int(input("Напишите второую цифру: "))
+num3 = int(input("Напишите третью цифру: "))
+
+print("Сумма: ", num1 + num2 + num3)
+print("Минус: ", num1 - num2 - num3)
+print("Умножение: ", num1 * num2 * num3)
+print("Деление: ", num1 / num2 / num3)
+print("Возведение в степень: ", num1  num2  num3)
+print("Делениес остатком: ", num1 % num2 % num3)
